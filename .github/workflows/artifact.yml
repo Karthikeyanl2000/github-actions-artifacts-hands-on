@@ -36,7 +36,7 @@ jobs:
     - name: Display structure of downloaded files
       run: ls -R ./artifacts/hello.txt
 
-    - name: Read the hello.txt file
+    - name: Display content of the text file
       run: cat ./artifacts/hello.txt
 
 
