@@ -33,6 +33,9 @@ jobs:
         name: hello-artifact
         path: ./artifacts/hello.txt
 
+    - name: Display structure of downloaded files
+      run: ls -R ./artifacts/hello.txt
+
     - name: Read the hello.txt file
       run: cat ./artifacts/hello.txt
 
